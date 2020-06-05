@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.html">
+</head>
+<body>
+
+     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: wheat;
+            font-weight: normal;
+            font-family: monospace;
+            color: brown;
+
+        }
+        .wrapper{
+            width: 705px;
+            margin: 20px auto;
+            padding: 20px;
+
+
+        }
+       h1{
+           display: inline-block;
+           background-color: white;
+           color: violet;
+           font-size: 15px;
+           font-weight: normal;
+           text-transform: uppercase;
+           padding: 10px 20px;
+           
+           border-radius: 50px;
+
+       }
+       .clear{
+           clear: both;
+       }
+       .items{
+           display: block;
+           margin: 20px 0;
+       }
+       .item{
+           background-color: white;
+           float: inline;
+           width: 205px;
+           padding: 150px;
+           
+           
+       }
+       .items img{
+           display: block;
+           margin: auto;
+       }
+       h3{
+           font-size: 20px;
+           display: block;
+           border: 1p solid red;
+           margin: 0 0 10px 0;
+           padding: 0 0 5px 0;
+
+       }
+       p{
+           font-size: 200px;
+       }
+       button{
+           border: 1p solid black;
+           padding: 4px 14px;
+           background-color: coral;
+           color: white;
+           text-transform: uppercase;
+           flex: right;
+           margin: 5px 0;
+           font-weight: 400;
+           cursor: pointer;
+           font-family: monospace;
+           border-radius: 50px;
+
+       }
+       button:focus{
+           outline: none !important;
+
+       }
+       span{
+           float: right;
+       }
+       p{
+           font-size: 20px;
+           font-weight: 50px;
+
+       }
+       .shopping-cart{
+           display: inline-block;
+           background: url(image/54302312-shopping-cart-icon.jpg) no-repeat 0 0;
+           width: 24px;
+           height: 24px;
+           margin: 0 10px 0;
+
+       }
+        
+        
+        
+    </style>
+
+   
+    
+</head>
+<body>
+    <a href="index.html"></a>
+    <br><br><br>
+    <div class="wrapper">
+       
+        <span> <i class="Shopping-cart"></i></span>
+        <div class="clear"></div>
+        <div class="items">
+            <div class="item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTou6hyv-_rw2k7wEZQzkuLnclp7Zwgiet-wguYNd7KGA-gBKHp&usqp=CAU" alt="">
+                <br>
+                <h3>Chicken Cutlets</h3>
+                <p>
+                    Price : <br>
+                    6 pcs = 250Rs <br>
+                    12pcs = 490Rs
+                </p>
+                <button class="add-to-cart" type="button">
+                    Add To Cart
+                </button>
+
+
+
+            </div><br>
+            <div class="item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR82X5HQNTJabDfQ6IkQqvGDFkEtYp3vTUunM0R-mjcBPPfhIPa&usqp=CAU" alt="">
+                <br>
+                <h3>Chicken Cheese Cutlets</h3>
+                <p>
+                    Price : <br>
+                    6 pcs = 300Rs <br>
+                    12pcs = 550Rs
+                </p>
+                <button class="add-to-cart" type="button">
+                    Add To Cart
+                </button>
+
+
+
+            </div><br>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
